@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>iSpy</title>
+    <link rel="stylesheet" href="iSpy.css">
+</head>
+<body>
+<h1>
+    I spy with my little eye...
+</h1>
+
+<img src="iSpy.jpg" alt="iSpy" usemap="#image-map" class="align">
+<p id="plane">A plane</p>
+<p id="duck">A Duck</p>
+<p id="apple">An apple</p>
+<p id="birdhouse">A birdhouse</p>
+<p id="kitten">A kitten</p>
+<p id="zebra_jeep">A zebra jeep</p>
+<p id="fire_hydrant">A fire hydrant</p>
+
+<map name="image-map">
+    <area id="_plane" alt="plane" href="#" onclick="plane()" coords="281,71,306,91" shape="rect">
+    <area id="_duck" alt="duck" href="#" onclick="duck()" coords="445,449,418,420" shape="rect">
+    <area id="_apple" alt="apple" href="#" onclick="apple()" coords="604,117,625,137" shape="rect">
+    <area id="_birdhouse" alt="birdhouse" href="#" onclick="birdhouse()" coords="592,338,609,356" shape="rect">
+    <area id="_kitten" alt="kitten" href="#" onclick="kitten()" coords="530,272,548,287" shape="rect">
+    <area id="_zebra_jeep" alt="zebra jeep" href="#" onclick="zebra_jeep()" coords="61,298,97,323" shape="rect">
+    <area id="_fire_hydrant" alt="fire hydrant" href="#" onclick="fire_hydrant()" coords="671,245,688,274" shape="rect">
+</map>
+
+<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script defer src="code.js"></script>
+
+</body>
+</html>
